@@ -1,6 +1,16 @@
 .menu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  // background: red;
+  height: 40px;
+
+  &--list {
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: inherit;
+  }
+
+  &--item {
+    list-style-type: none;
+  }
 }
