@@ -1,0 +1,59 @@
+.full-screen-bg {
+  height: 100vh;
+  background: url('../../assets/img/bg3-with-me.jpg') bottom right;
+  background-size: cover;
+  position: relative;
+
+  &--content-wrapper {
+    position: relative;
+    top: 300px;
+    padding-top: 60px;
+  }
+
+  &--title {
+    font-size: 65px;
+    font-weight: 700;
+    color: #444;
+  }
+
+  &--text {
+    font-size: 40px;
+    font-weight: 400;
+    color: #bbb;
+  }
+
+  // &--buttons {
+  //   background: rgb(96, 96, 96);
+  // }
+
+  &--buttons-list {
+    list-style: outside none none;
+    margin: 40px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    // background: royalblue;
+    width: 25%;
+  }
+
+  &--button {
+    text-decoration: none;
+    background: #444444;
+    color: #ffffff;
+
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 1px solid #444444;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 26px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 400;
+  }
+
+  // &--button-white {
+
+  // }
+
+}
