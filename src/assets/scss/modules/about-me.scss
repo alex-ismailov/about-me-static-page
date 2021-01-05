@@ -1,0 +1,49 @@
+.about-me {
+  height: 100vh;
+  background: lightcoral;
+  font-size: 25px;
+  // color: #fff;
+  position: relative;
+  overflow: hidden;
+
+  &--rectangular-bg {
+    // height: 10%;
+    background-color: #1e2528;
+    // height: 10%;
+    // height: inherit;
+    // position: absolute;
+    color: #fff;
+  }
+
+  &--triangle-bg {
+    // background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiMxZTI1MjgiPjxwYXRoIGQ9Ik0xMjgwIDE0MFYwSDBsMTI4MCAxNDB6Ii8+PC9nPjwvc3ZnPg==);
+    background-image: linear-gradient(7deg,#1e2528 25%,rgba(104,109,114,0.06) 25.1%);
+    // background-size: 100% 100px;
+    // top: 0;
+    // height: 100px;
+    // z-index: 1;
+    transform: rotateX(180deg);
+    padding-top: 3.2%;
+    // width: 1200px;
+    // width: 50%;
+    height: inherit;
+    // position: absolute;
+
+    // top: 240px;
+  }
+
+  &--title {
+    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+    font-size: 48px;
+  }
+
+  &--content {
+    position: absolute;
+    transform: rotateX(180deg);
+    position: relative;
+    top: 650px;
+    color: #fff;
+  }
+}
