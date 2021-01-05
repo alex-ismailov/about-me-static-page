@@ -5,7 +5,7 @@
   position: relative;
 
   &--triangle-bg {
-    background-image: linear-gradient(10deg,#1e2528 25%,rgba(104,109,114,0.06) 25.1%);
+    background-image: linear-gradient(7deg,#1e2528 25%,rgba(104,109,114,0.06) 25.1%);
     height: inherit;
   }
 
@@ -34,7 +34,7 @@
     padding: 0;
     display: flex;
     justify-content: space-around;
-    width: 25%;
+    width: 30%;
   }
 
   &--button {
