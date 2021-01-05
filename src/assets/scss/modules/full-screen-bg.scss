@@ -4,22 +4,24 @@
   background-size: cover;
   position: relative;
 
+  &--layer-2 {
+    background-image:linear-gradient(10deg,#1e2528 25%,rgba(104,109,114,0.06) 10%);
+    height: inherit;
+  }
+
   &--content-wrapper {
-    position: relative;
-    top: 300px;
-    padding-top: 60px;
+    margin-top: 300px;
   }
 
   &--title {
     font-size: 65px;
     font-weight: 700;
-    color: #444;
   }
 
   &--text {
     font-size: 40px;
     font-weight: 400;
-    color: #bbb;
+    color: rgb(126, 126, 126);
   }
 
   // &--buttons {
@@ -32,7 +34,6 @@
     padding: 0;
     display: flex;
     justify-content: space-around;
-    // background: royalblue;
     width: 25%;
   }
 
@@ -41,7 +42,6 @@
     background: #444444;
     color: #ffffff;
 
-    text-transform: uppercase;
     font-size: 12px;
     border: 1px solid #444444;
     display: inline-block;
