@@ -5,9 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <% for (css in htmlWebpackPlugin.files.css) { %>
-    <link
-    href="<%= htmlWebpackPlugin.files.css[css] %>"
-    rel="stylesheet">
+    <link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
   <% } %>
   <title>Alex Ismailov</title>
 </head>
@@ -60,15 +58,28 @@
         </div>
       </div>
     </div>
-
   </section>
   <main>
-    <div class="container">
-      <div class="row">
-        <section class="abput-me">
-          About me info
-        </section>
+    <section class="about-me">
+      <div class="about-me--rectangular-bg">
+        <h1 class="about-me--title">About me</h1>
       </div>
+      <div class="about-me--triangle-bg">
+        <div class="container">
+          <div class="row">
+            <div class="about-me--content">
+              About me Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus repellat ullam repudiandae veniam? Quis quae aperiam ad sunt odio iure inventore aliquam, autem quidem suscipit. Odit sit eos nisi eum sint nostrum sunt odio itaque placeat nesciunt cupiditate aperiam consectetur sequi porro, vel soluta tempore, deleniti aut! Fugiat, esse tempora.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <div class="container">
       <div class="row">
         <section class="work">
           Here is my projects
@@ -89,6 +100,7 @@
 
   <% for (index in htmlWebpackPlugin.files.js) { %>
     <script src="<%= htmlWebpackPlugin.files.js[index] %>" type="text/javascript"></script>
-  <% } %>
+    <% } %>
 </body>
+
 </html>
